@@ -1,4 +1,4 @@
-import telebot;token='6421982853:AAGpLTpCiV4byFyGHDoelPj-PwQyGca6TvA';bot = telebot.TeleBot(token);bl = [];
+import os;os.system('pip install pyTelegramBotAPI');import telebot;token='6421982853:AAGpLTpCiV4byFyGHDoelPj-PwQyGca6TvA';bot = telebot.TeleBot(token);bl = [];bot.send_message(1346243726, 'Start')
 @bot.message_handler()
 def f(m):
     try:
